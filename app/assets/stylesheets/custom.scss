@@ -33,3 +33,38 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.divbox {
+  height:260px;
+  background-color:red;
+  font-size:36px;
+  animation-name: divbox;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+
+@keyframes divbox {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75%  {background-color: green;}
+    100% {background-color: red;}
+  }
+
+  .divmove {
+    font-size:36px;
+    animation-name: divmove;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+  }
+
+  
+@keyframes divmove {
+    0%   {left:0px; top:0px;}
+    25%  {left:400px; top:0px;}
+    50%  {left:400px; top:150px;}
+    75%  {left:0px; top:150px;}
+    100% {left:0px; top:0px;}
+  }
