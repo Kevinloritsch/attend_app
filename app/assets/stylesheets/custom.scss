@@ -19,7 +19,7 @@
 
 /* parralax */
 .parallaxone {
-  background-image:url("{{url_for('static', filename='field.png')}}");
+  background-image:url(asset-path('field.jpg'));
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
@@ -27,7 +27,7 @@
 }
 
 .parallaxtwo {
-  background-image:url("{{url_for('static', filename='wall.png')}}");
+  background-image:url(asset-path('wall.jpg'));
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
