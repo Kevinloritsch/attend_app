@@ -34,6 +34,8 @@
   background-repeat: no-repeat;
 }
 
+
+/* animation */
 .divbox {
   height:260px;
   background-color:red;
@@ -45,11 +47,12 @@
 }
 
 @keyframes divbox {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    75%  {background-color: green;}
-    100% {background-color: red;}
+    0%  {background-color:#00FFFF;}
+    25%  {background-color: #0096FF;}
+    50%  {background-color: #3F00FF;}
+    75% {background-color: #00008B;}
+    100%  {background-color:#00FFFF;}
+
   }
 
   .divmove {
@@ -69,3 +72,4 @@
     75%  {left:0px; top:150px;}
     100% {left:0px; top:0px;}
   }
+
