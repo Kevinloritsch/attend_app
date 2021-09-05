@@ -133,7 +133,7 @@
 {
   position: absolute;
   box-sizing: border-box;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 50%;
   animation: animate 5s linear infinite;
   animation-delay: calc(0.5s * var(--i));
@@ -145,7 +145,7 @@
   border: 2px dashed darkblue;
   border-radius: 50%;
   animation: animate 5s linear infinite;
-  animation-delay: calc(0.5s * var(--i));
+  animation-delay: calc(0.1s * var(--i));
 }
 
 
@@ -162,8 +162,8 @@
   }
   100%
   {
-    width: 500px;
-    height: 500px;
+    width: 650px;
+    height: 650px;
     opacity: 0;
   }
 }
